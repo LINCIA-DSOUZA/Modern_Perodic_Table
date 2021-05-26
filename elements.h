@@ -97,12 +97,44 @@ extern void table()
     strcpy(atom[5].symbol,"C");	
     atom[5].atomicnum=6;	
     atom[5].atomicwt=12.01;
+    strcpy(atom[0].electronic_configuration,"[He] 2s2 2p2");
+    strcpy(atom[0].history,"The name carbon has been derived from the word carbo (Latin for coal and charcoal). Carbon was discovered as a novel element by 1722 by Antoine Ferchault de Réaumur, who proposed that this novel element can be used to transform iron into steel.");
+    atom[0].melting_point = 40000;
+    atom[0].boiling_point = 4300;
+    atom[0].ionic_radius = 0.16;
+    atom[0].isotopes = 15;
+    atom[0].electronegativity = 2.55;
+    strcpy(atom[0].color,"Gray Graphite");
+    atom[0].group = 14;
+    atom[0].period = 2;
+    strcpy(atom[0].conductivity,"Poor conductor of electricity");
+    strcpy(atom[0].luster,"Blackish and it is shiny sometimes");
+    strcpy(atom[0].phase,"Solid");
+    atom[0].density = 2.267;
+    strcpy(atom[0].image_path,"");
+
 
 
     strcpy(atom[6].name,"NITROGEN");	
     strcpy(atom[6].symbol,"N");
     atom[6].atomicnum=7;
     atom[6].atomicwt=14.00;
+    strcpy(atom[0].electronic_configuration," ");
+    strcpy(atom[0].history,"");
+    atom[0].melting_point = 0.00000;
+    atom[0].boiling_point = 0.00000;
+    atom[0].ionic_radius = 0.00000;
+    atom[0].isotopes = 0;
+    atom[0].electronegativity = 0.00000;
+    strcpy(atom[0].color,"");
+    atom[0].group = 1;
+    atom[0].period = 1;
+    strcpy(atom[0].conductivity," ");
+    strcpy(atom[0].luster,"");
+    strcpy(atom[0].phase," ");
+    atom[0].density = 0.00000;
+    strcpy(atom[0].image_path,"");
+
 
 
     strcpy(atom[7].name,"OXYGEN");	
