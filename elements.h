@@ -53,7 +53,7 @@ extern void table()
     strcpy(atom[0].luster,"No luster");
     strcpy(atom[0].phase,"Gas");
     atom[0].density = Thermal conductivity;
-    strcpy(atom[].uses,"Hydrogen also has many other uses. In the chemical industry it is used to make ammonia for agricultural fertiliser (the Haber process) and cyclohexane and methanol, which are intermediates in the production of plastics and pharmaceuticals. It is also used to remove sulfur from fuels during the oil-refining process. Large quantities of hydrogen are used to hydrogenate oils to form fats, for example to make margarine. Hydrogen is an essential element for life. It is present in water and in almost all the molecules in living things. However, hydrogen itself does not play a particularly active role. It remains bonded to carbon and oxygen atoms, while the chemistry of life takes place at the more active sites involving, for example, oxygen, nitrogen and phosphorus. Hydrogen is easily the most abundant element in the universe. It is found in the sun and most of the stars, and the planet Jupiter is composed mostly of hydrogen.");
+    strcpy(atom[0].uses,"Hydrogen also has many other uses. In the chemical industry it is used to make ammonia for agricultural fertiliser (the Haber process) and cyclohexane and methanol, which are intermediates in the production of plastics and pharmaceuticals. It is also used to remove sulfur from fuels during the oil-refining process. Large quantities of hydrogen are used to hydrogenate oils to form fats, for example to make margarine. Hydrogen is an essential element for life. It is present in water and in almost all the molecules in living things. However, hydrogen itself does not play a particularly active role. It remains bonded to carbon and oxygen atoms, while the chemistry of life takes place at the more active sites involving, for example, oxygen, nitrogen and phosphorus. Hydrogen is easily the most abundant element in the universe. It is found in the sun and most of the stars, and the planet Jupiter is composed mostly of hydrogen.");
     strcpy(atom[0].image_path,"");
 
 
@@ -66,7 +66,7 @@ extern void table()
     atom[1].melting_point = 0.95;
     atom[1].boiling_point = 4.22;
     atom[1].ionic_radius =93;
-    atom[1].isotopes = 2;
+    atom[1].isotopes = 8;
     atom[1].electronegativity = 0;
     strcpy(atom[1].color,"Colorless");
     atom[1].group = 18;
@@ -75,24 +75,76 @@ extern void table()
     strcpy(atom[1].luster,"No Luster");
     strcpy(atom[1].phase,"Gas");
     atom[1].density = 0.00017;
+    strcpy(atom[1].uses,"Helium is used as a cooling medium for the Large Hadron Collider (LHC), and the superconducting magnets in MRI scanners and NMR spectrometers. It is also used to keep satellite instruments cool and was used to cool the liquid oxygen and hydrogen that powered the Apollo space vehicles. Helium-neon gas lasers are used to scan barcodes in supermarket checkouts. A new use for helium is a helium-ion microscope that gives better image resolution than a scanning electron microscope. After hydrogen, helium is the second most abundant element in the universe. It is present in all stars. It was, and is still being, formed from alpha-particle decay of radioactive elements in the Earth. Some of the helium formed escapes into the atmosphere, which contains about 5 parts per million by volume. This is a dynamic balance, with the low-density helium continually escaping to outer space.");
     strcpy(atom[1].image_path,"");
 
     strcpy(atom[2].name,"LITHIUM");
     strcpy(atom[2].symbol,"Li");
     atom[2].atomicnum=3;
     atom[2].atomicwt=6.94;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
+
 
 
     strcpy(atom[3].name,"BERYLLIUM");	
     strcpy(atom[3].symbol,"Be");	
     atom[3].atomicnum=4;	
     atom[3].atomicwt=9.01;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
+
 
 
     strcpy(atom[4].name,"BORON");	
     strcpy(atom[4].symbol,"B");
     atom[4].atomicnum=5;
     atom[4].atomicwt=10.81;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
+
 
     strcpy(atom[5].name,"CARBON");	
     strcpy(atom[5].symbol,"C");	
@@ -112,6 +164,7 @@ extern void table()
     strcpy(atom[0].luster,"Blackish and it is shiny sometimes");
     strcpy(atom[0].phase,"Solid");
     atom[0].density = 2.267;
+    strcpy(atom[].uses,"");
     strcpy(atom[0].image_path,"");
 
 
@@ -120,21 +173,22 @@ extern void table()
     strcpy(atom[6].symbol,"N");
     atom[6].atomicnum=7;
     atom[6].atomicwt=14.00;
-    strcpy(atom[0].electronic_configuration," ");
-    strcpy(atom[0].history,"");
-    atom[0].melting_point = 0.00000;
-    atom[0].boiling_point = 0.00000;
-    atom[0].ionic_radius = 0.00000;
-    atom[0].isotopes = 0;
-    atom[0].electronegativity = 0.00000;
-    strcpy(atom[0].color,"");
-    atom[0].group = 1;
-    atom[0].period = 1;
-    strcpy(atom[0].conductivity," ");
-    strcpy(atom[0].luster,"");
-    strcpy(atom[0].phase," ");
-    atom[0].density = 0.00000;
-    strcpy(atom[0].image_path,"");
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
 
@@ -142,114 +196,417 @@ extern void table()
     strcpy(atom[7].symbol,"O");
     atom[7].atomicnum=8;
     atom[7].atomicwt=15.59;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
     strcpy(atom[8].name,"FLUORINE");	
     strcpy(atom[8].symbol,"F");
     atom[8].atomicnum=9;
     atom[8].atomicwt=18.99;
-
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
     strcpy(atom[9].name,"NEON");        
     strcpy(atom[9].symbol,"Ne");        
     atom[9].atomicnum=10;        
-    atom[9].atomicwt=20.18;  
+    atom[9].atomicwt=20.18;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");  
 
 
     strcpy(atom[10].name,"SODIUM");
     strcpy(atom[10].symbol,"Na");        
     atom[10].atomicnum=11;        
     atom[10].atomicwt=22.99;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
    
 
     strcpy(atom[11].name,"MAGNESIUM");        
     strcpy(atom[11].symbol,"Mg");        
     atom[11].atomicnum=12;        
     atom[11].atomicwt=24.30;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
     
 
     strcpy(atom[12].name,"ALUMINIUM");        
     strcpy(atom[12].symbol,"Al");        
     atom[12].atomicnum=13;        
     atom[12].atomicwt=1.008;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
     strcpy(atom[13].name,"SILICON");        
     strcpy(atom[13].symbol,"Si");        
     atom[13].atomicnum=14;        
     atom[13].atomicwt=28.08;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
     strcpy(atom[14].name,"PHOSPHOROUS");        
     strcpy(atom[14].symbol,"P");        
     atom[14].atomicnum=15;        
     atom[14].atomicwt=30.97;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
     strcpy(atom[15].name,"SULPHUR");        
     strcpy(atom[15].symbol,"S");        
     atom[15].atomicnum=16;        
     atom[15].atomicwt=32.06;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
     strcpy(atom[16].name,"CHLORINE");        
     strcpy(atom[16].symbol,"Cl");        
     atom[16].atomicnum=17;        
     atom[16].atomicwt=35.45;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
     strcpy(atom[17].name,"ARGON");        
     strcpy(atom[17].symbol,"Ar");        
     atom[17].atomicnum=18;        
     atom[17].atomicwt=39.94;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
     strcpy(atom[18].name,"POTASSIUM");        
     strcpy(atom[18].symbol,"K");        
     atom[18].atomicnum=19;        
     atom[18].atomicwt=39.09;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
     strcpy(atom[19].name,"CALICUM");        
     strcpy(atom[19].symbol,"Ca");        
     atom[19].atomicnum=20;        
     atom[19].atomicwt=40.07;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
     strcpy(atom[20].name,"SCANDIUM");        
     strcpy(atom[20].symbol,"Sc");        
     atom[20].atomicnum=21;        
     atom[20].atomicwt=44.95;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
     strcpy(atom[21].name,"TITANIUM");        
     strcpy(atom[21].symbol,"Ti");        
     atom[21].atomicnum=22;        
     atom[21].atomicwt=47.86;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
     strcpy(atom[22].name,"VANADIUM");        
     strcpy(atom[22].symbol,"V");        
     atom[22].atomicnum=23;        
     atom[22].atomicwt=50.94;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
     strcpy(atom[23].name,"CHROMIUM");        
     strcpy(atom[23].symbol,"Cr");        
     atom[23].atomicnum=24;        
     atom[23].atomicwt=51.99;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
     strcpy(atom[24].name,"MANGANESE");        
     strcpy(atom[24].symbol,"Mg");        
     atom[24].atomicnum=25;        
     atom[24].atomicwt=54.84;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
     strcpy(atom[25].name,"IRON");        
     strcpy(atom[25].symbol,"Fe");        
     atom[25].atomicnum=26;        
     atom[25].atomicwt=55.84;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
 
@@ -257,84 +614,308 @@ extern void table()
     strcpy(atom[26].symbol,"Co");        
     atom[26].atomicnum=27;        
     atom[26].atomicwt=58.93;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
     strcpy(atom[27].name,"NICKEL");        
     strcpy(atom[27].symbol,"Ni");        
     atom[27].atomicnum=28;        
     atom[27].atomicwt=58.69;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
     strcpy(atom[28].name,"COPPER");        
     strcpy(atom[28].symbol,"Cu");        
     atom[28].atomicnum=29;
     atom[28].atomicwt=63.54;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
     strcpy(atom[29].name,"ZINC");        
     strcpy(atom[29].symbol,"Zn");        
     atom[29].atomicnum=30;        
     atom[29].atomicwt=65.39;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
     strcpy(atom[30].name,"GALLIUM");       
     strcpy(atom[30].symbol,"Ga");        
     atom[30].atomicnum=31;        
     atom[30].atomicwt=69.72;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
     strcpy(atom[31].name,"GERMANIUM");        
     strcpy(atom[31].symbol,"Ge");        
     atom[31].atomicnum=32;        
     atom[31].atomicwt=72.64;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
     strcpy(atom[32].name,"ARSENIC");        
     strcpy(atom[32].symbol,"As");        
     atom[32].atomicnum=33;        
     atom[32].atomicwt=74.92;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
     strcpy(atom[33].name,"SELENIUM");        
     strcpy(atom[33].symbol,"Se");        
     atom[33].atomicnum=34;       
     atom[33].atomicwt=78.96;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
     strcpy(atom[34].name,"BROMINE");        
     strcpy(atom[34].symbol,"Br");        
     atom[34].atomicnum=35;        
     atom[34].atomicwt=79.90;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
  
 
     strcpy(atom[35].name,"KRYPTON");        
     strcpy(atom[35].symbol,"Kr");        
     atom[35].atomicnum=36;        
     atom[35].atomicwt=83.80;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
     strcpy(atom[36].name,"RUBIDIUM");        
     strcpy(atom[36].symbol,"Rb");        
     atom[36].atomicnum=37;      
     atom[36].atomicwt=85.46;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
     strcpy(atom[37].name,"STRONTIUM");        
     strcpy(atom[37].symbol,"Sr");        
     atom[37].atomicnum=38;        
     atom[37].atomicwt=87.62;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
     strcpy(atom[38].name,"YTTRIUM");        
     strcpy(atom[38].symbol,"Y");        
     atom[38].atomicnum=39;        
     atom[38].atomicwt=88.90;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
     strcpy(atom[39].name,"ZIRCONIUM");        
     strcpy(atom[39].symbol,"Zr");        
     atom[39].atomicnum=40;
     atom[39].atomicwt=91.22;
+    strcpy(atom[].electronic_configuration,"");
+    strcpy(atom[].history,"");
+    atom[].melting_point = 0.00000;
+    atom[].boiling_point = 0.00000;
+    atom[].ionic_radius = 0.00000;
+    atom[].isotopes = 0;
+    atom[].electronegativity = 0.00000;
+    strcpy(atom[].color,"");
+    atom[].group = 1;
+    atom[].period = 1;
+    strcpy(atom[].conductivity,"");
+    strcpy(atom[].luster,"");
+    strcpy(atom[].phase,"");
+    atom[].density = 0.00000;
+    strcpy(atom[].uses,"");
+    strcpy(atom[].image_path,"");
 
 
     strcpy(atom[40].name,"NIOBIUM");
