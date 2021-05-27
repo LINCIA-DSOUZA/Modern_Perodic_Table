@@ -443,7 +443,7 @@ extern void table()
     atom[18].boiling_point = 0.00000;
     atom[18].ionic_radius = 0.00000;
     atom[18].isotopes = 0;
-    atom[18].electronegativity = 0.00000;
+    atom[18].electronegativity = 0.82;
     strcpy(atom[18].color,"");
     atom[18].group = 1;
     atom[18].period = 1;
@@ -465,7 +465,7 @@ extern void table()
     atom[19].boiling_point = 0.00000;
     atom[19].ionic_radius = 0.00000;
     atom[19].isotopes = 0;
-    atom[19].electronegativity = 0.00000;
+    atom[19].electronegativity = 1.00;
     strcpy(atom[19].color,"");
     atom[19].group = 1;
     atom[19].period = 1;
@@ -487,7 +487,7 @@ extern void table()
     atom[20].boiling_point = 0.00000;
     atom[20].ionic_radius = 0.00000;
     atom[20].isotopes = 0;
-    atom[20].electronegativity = 0.00000;
+    atom[20].electronegativity = 1.36;
     strcpy(atom[20].color,"");
     atom[20].group = 1;
     atom[20].period = 1;
@@ -509,7 +509,7 @@ extern void table()
     atom[21].boiling_point = 0.00000;
     atom[21].ionic_radius = 0.00000;
     atom[21].isotopes = 0;
-    atom[21].electronegativity = 0.00000;
+    atom[21].electronegativity = 1.54;
     strcpy(atom[21].color,"");
     atom[21].group = 1;
     atom[21].period = 1;
@@ -531,7 +531,7 @@ extern void table()
     atom[22].boiling_point = 0.00000;
     atom[22].ionic_radius = 0.00000;
     atom[22].isotopes = 0;
-    atom[22].electronegativity = 0.00000;
+    atom[22].electronegativity = 1.63;
     strcpy(atom[22].color,"");
     atom[22].group = 1;
     atom[22].period = 1;
