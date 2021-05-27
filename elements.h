@@ -41,18 +41,19 @@ extern void table()
     atom[0].atomicwt=1.008;
     strcpy(atom[0].electronic_configuration,"1s1");
     strcpy(atom[0].history,"");
-    atom[0].melting_point = 0.00000;
-    atom[0].boiling_point = 0.00000;
-    atom[0].ionic_radius = 0.00000;
-    atom[0].isotopes = 0;
-    atom[0].electronegativity = 0.00000;
-    strcpy(atom[0].color,"");
+    atom[0].melting_point = 13.99;
+    atom[0].boiling_point = 20.271;
+    atom[0].ionic_radius = 0.012;
+    atom[0].isotopes = 7;
+    atom[0].electronegativity = 2.20;
+    strcpy(atom[0].color,"Colourless");
     atom[0].group = 1;
     atom[0].period = 1;
-    strcpy(atom[0].conductivity,"Non Conducting");
-    strcpy(atom[0].luster,"");
-    strcpy(atom[0].phase,"gas");
-    atom[0].density = 0.00000;
+    strcpy(atom[0].conductivity,"Thermal conductivity");
+    strcpy(atom[0].luster,"No luster");
+    strcpy(atom[0].phase,"Gas");
+    atom[0].density = Thermal conductivity;
+    strcpy(atom[].uses,"Hydrogen also has many other uses. In the chemical industry it is used to make ammonia for agricultural fertiliser (the Haber process) and cyclohexane and methanol, which are intermediates in the production of plastics and pharmaceuticals. It is also used to remove sulfur from fuels during the oil-refining process. Large quantities of hydrogen are used to hydrogenate oils to form fats, for example to make margarine. Hydrogen is an essential element for life. It is present in water and in almost all the molecules in living things. However, hydrogen itself does not play a particularly active role. It remains bonded to carbon and oxygen atoms, while the chemistry of life takes place at the more active sites involving, for example, oxygen, nitrogen and phosphorus. Hydrogen is easily the most abundant element in the universe. It is found in the sun and most of the stars, and the planet Jupiter is composed mostly of hydrogen.");
     strcpy(atom[0].image_path,"");
 
 
