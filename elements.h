@@ -161,10 +161,10 @@ extern void table()
     atom[5].group = 14;
     atom[5].period = 2;
     strcpy(atom[5].conductivity,"Poor conductor of electricity");
-    strcpy(atom[5].luster,"Blackish and it is shiny sometimes");
+    strcpy(atom[5].luster,"Shiny");
     strcpy(atom[5].phase,"Solid");
     atom[5].density = 2.267;
-    strcpy(atom[5].uses,"");
+    strcpy(atom[5].uses,"Carbon is unique among the elements in its ability to form strongly bonded chains, sealed off by hydrogen atoms. These hydrocarbons, extracted naturally as fossil fuels (coal, oil and natural gas), are mostly used as fuels. A small but important fraction is used as a feedstock for the petrochemical industries producing polymers, fibres, paints, solvents and plastics etc.Impure carbon in the form of charcoal (from wood) and coke (from coal) is used in metal smelting. It is particularly important in the iron and steel industries.Carbon is essential to life. This is because it is able to form a huge variety of chains of different lengths. It was once thought that the carbon-based molecules of life could only be obtained from living things. They were thought to contain a ‘spark of life’. However, in 1828, urea was synthesised from inorganic reagents and the branches of organic and inorganic chemistry were united.Industrial diamonds are used for cutting rocks and drilling. Diamond films are used to protect surfaces such as razor blades.");
     strcpy(atom[5].image_path,"");
 
 
@@ -173,21 +173,21 @@ extern void table()
     strcpy(atom[6].symbol,"N");
     atom[6].atomicnum=7;
     atom[6].atomicwt=14.00;
-    strcpy(atom[6].electronic_configuration,"");
-    strcpy(atom[6].history,"");
-    atom[6].melting_point = 0.00000;
-    atom[6].boiling_point = 0.00000;
-    atom[6].ionic_radius = 0.00000;
-    atom[6].isotopes = 0;
-    atom[6].electronegativity = 0.00000;
-    strcpy(atom[6].color,"");
-    atom[6].group = 1;
-    atom[6].period = 1;
-    strcpy(atom[6].conductivity,"");
-    strcpy(atom[6].luster,"");
-    strcpy(atom[6].phase,"");
-    atom[6].density = 0.00000;
-    strcpy(atom[6].uses,"");
+    strcpy(atom[6].electronic_configuration,"[He] 2s22p3");
+    strcpy(atom[6].history,"Nitrogen in the form of ammonium chloride, NH4Cl, was known to the alchemists as sal ammonia. It was manufactured in Egypt by heating a mixture of dung, salt and urine. Nitrogen gas itself was obtained in the 1760s by both Henry Cavendish and Joseph Priestley and they did this by removing the oxygen from air. They noted it extinguished a lighted candle and that a mouse breathing it would soon die. Neither man deduced that it was an element. The first person to suggest this was a young student Daniel Rutherford in his doctorate thesis of September 1772 at Edinburgh, Scotland.");
+    atom[6].melting_point = 63.2;
+    atom[6].boiling_point = 77.35;
+    atom[6].ionic_radius = 1.71;
+    atom[6].isotopes = 24;
+    atom[6].electronegativity = 3.04;
+    strcpy(atom[6].color,"Colourless");
+    atom[6].group = 15;
+    atom[6].period = 2;
+    strcpy(atom[6].conductivity,"Electrical Conductivity");
+    strcpy(atom[6].luster,"No luster");
+    strcpy(atom[6].phase,"Gas");
+    atom[6].density = 0.00114;
+    strcpy(atom[6].uses,"Nitrogen is important to the chemical industry. It is used to make fertilisers, nitric acid, nylon, dyes and explosives. To make these products, nitrogen must first be reacted with hydrogen to produce ammonia. This is done by the Haber process. 150 million tonnes of ammonia are produced in this way every year.Nitrogen gas is also used to provide an unreactive atmosphere. It is used in this way to preserve foods, and in the electronics industry during the production of transistors and diodes. Large quantities of nitrogen are used in annealing stainless steel and other steel mill products. Annealing is a heat treatment that makes steel easier to work.Liquid nitrogen is often used as a refrigerant. It is used for storing sperm, eggs and other cells for medical research and reproductive technology. It is also used to rapidly freeze foods, helping them to maintain moisture, colour, flavour and texture.");
     strcpy(atom[6].image_path,"");
 
 
@@ -202,7 +202,7 @@ extern void table()
     atom[7].boiling_point = 0.00000;
     atom[7].ionic_radius = 0.00000;
     atom[7].isotopes = 0;
-    atom[7].electronegativity = 0.00000;
+    atom[7].electronegativity = 3.44;
     strcpy(atom[7].color,"");
     atom[7].group = 1;
     atom[7].period = 1;
